@@ -1,0 +1,12 @@
+model_name: bert-base-uncased
+num_labels: 4
+id2label:
+  0: safe
+  1: jailbreak
+  2: injection
+  3: unsafe
+label2id:
+  safe: 0
+  jailbreak: 1
+  injection: 2
+  unsafe: 3
